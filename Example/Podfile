@@ -1,0 +1,8 @@
+use_modular_headers!
+
+platform :ios, '11.0'
+
+target 'Database_Example' do
+  pod 'Database', :path => '../'
+  
+end

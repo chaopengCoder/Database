@@ -1,0 +1,33 @@
+PODS:
+  - Database (1.0.0):
+    - ObjectMapper
+    - RealmSwift
+  - ObjectMapper (4.2.0)
+  - Realm (10.25.0):
+    - Realm/Headers (= 10.25.0)
+  - Realm/Headers (10.25.0)
+  - RealmSwift (10.25.0):
+    - Realm (= 10.25.0)
+
+DEPENDENCIES:
+  - Database (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  Database:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Database: 2fcf10b8b3338325369ea59dbaa2cf08cf4e4d56
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Realm: 22a82aaa0e73f3483e3a6df32549c4c5cd34aa63
+  RealmSwift: c2a635212400923edd3f828b8a37d55d3eb31863
+
+PODFILE CHECKSUM: adfe09746a944d6d9b3aed8eccf500e659db0ea8
+
+COCOAPODS: 1.11.3
